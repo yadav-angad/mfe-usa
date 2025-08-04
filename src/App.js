@@ -28,7 +28,7 @@ export default function () {
           }}>
             {'Set Username'}
           </Button>
-          <Typography>{'Hello : ' + user?.name}</Typography>
+          <Typography>{'Hello : ' + user?.name ?? ''}</Typography>
         </Box>
         <Box>
           {countryData[countryName] && (
